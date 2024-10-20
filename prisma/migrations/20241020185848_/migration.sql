@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "links" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "target" TEXT NOT NULL,
+    "hash" TEXT NOT NULL,
+    "created_at" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" DATETIME NOT NULL
+);
